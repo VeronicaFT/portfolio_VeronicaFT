@@ -1,0 +1,206 @@
+/* Logo dentro de la tarjeta de proyecto */
+.project-logo {
+    
+    height: auto;
+    border-radius: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Características específicas para cada proyecto*/
+.project-quien-es-quien {
+    max-width: 200px; 
+    margin-top: 50px;
+}
+
+.project-singluten-go{
+max-width: 150px;
+
+}
+
+.project-mi_portfolio{
+
+    max-width: 150px;
+}
+
+/* Logo en la navbar */
+.logo-img {
+    height: 100px;
+    width: auto;
+}
+
+/* Imagen principal del header */
+.principal-img {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+}
+
+/* Imagen decorativa sobre mí */
+.sobremi-img {
+    max-width: 180px;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+/* Tarjeta de redes sociales */
+.social-card {
+    max-width: 340px;
+    border: 1px solid #F23B7D;
+    box-shadow: 0 2px 8px rgba(12,30,53,0.08);
+}
+.social-title {
+    color: #F23B7D;
+}
+.social-link {
+    text-decoration: none;
+}
+.social-card svg {
+    fill: #fff;
+    transition: fill 0.2s;
+    
+}
+
+/* Invitación a contactar */
+.contact-invite {
+    font-size: 1.1rem;
+    color: #0C1E35;
+}
+
+/* Footer personalizado */
+.custom-footer {
+    background-color: #0C1E35;
+    color: #fff;
+}
+/* Estilos para la sección Formación y experiencia */
+.formacion-card {
+    background-color: #0C1E35 !important;
+    color: #fff;
+    border: 2px solid #FF2E9A;
+}
+.formacion-title {
+    color: #F23B7D;
+}
+.formacion-subtitle {
+    color: #F23B7D;
+}
+/* Establece el color de fondo general y el color de texto principal */
+body {
+    background-color: #0C1E35;
+    color: #fff;
+}
+/* La barra de navegación y los botones principales usan el color azul oscuro */
+.navbar, .btn-primary {
+    background-color: #0C1E35 !important;
+    border: none;
+}
+/* Títulos y enlaces principales en rosa */
+.navbar-brand, .nav-link, h1, h2, h3, h4, h5, h6 {
+    color: #F23B7D !important;
+}
+/* Fondo degradado para la cabecera y texto en blanco */
+header {
+    background: linear-gradient(135deg, #0C1E35 60%, #F23B7D 100%);
+    color: #fff;
+}
+/* Botón principal en rosa */
+.btn-primary {
+    background-color: #F23B7D !important;
+    color: #fff;
+}
+/* Pie de página azul oscuro y texto blanco */
+footer {
+    background-color: #0C1E35;
+    color: #fff;
+}
+/* Título de la sección de proyectos en rosa */
+#projects h2 {
+    color: #F23B7D;
+}
+/* Tarjetas de proyectos y formación: fondo azul oscuro, texto blanco y borde rosa neón */
+.card, .formacion-card {
+    background-color: #0C1E35 !important;
+    color: #fff;
+    border: 2px solid #FF2E9A !important;
+    box-shadow: 0 0 12px 2px #FF2E9A !important;
+}
+
+/* 
+Comentado: fondo aplicado por .card con !important (lo mantengo por si lo necesito más adelante)
+
+Fondo azul para el contenido de la tarjeta 
+.card-body {
+    background-color: #0C1E35 !important;
+    color: #fff;
+}*/
+
+
+/* Fondo específico para la sección de contacto */
+#contact {
+    background-color: #d7eefc !important;
+    color: #0C1E35;
+}
+
+/* Contenedor de avatar con efecto hover*/
+.avatar-container {
+    display: inline-block;       /* respeta el tamaño del contenido */
+    perspective: 1000px;
+    position: relative;
+    margin: 0 auto;              /* centra horizontalmente */
+}
+
+.avatar-container img {
+    display: block;
+    border-radius: 50%;
+    backface-visibility: hidden;
+    transition: transform 0.6s;
+    width: 100%;
+    height: auto;                /* respeta proporción */
+    
+}
+
+/* Solo la segunda imagen se superpone */
+.avatar-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+}
+
+/* Hover flip */
+.avatar-container:hover .avatar-front {
+    transform: rotateY(180deg);
+}
+
+.avatar-container:hover .avatar-back {
+    transform: rotateY(0deg);
+}
+
+
+
+/* Selector para el h1 dentro del header #about */
+#about h1 {
+    width: 20ch;   /* longitud */
+    white-space: nowrap;             
+    overflow: hidden;                 
+    border-right: 3px solid #F23B7D; /* cursor */
+    animation: typing 3s steps(20), blink 0.7s infinite;
+    margin: 0 auto;       /* centra el bloque */
+    text-align: center;   /* centra el texto dentro del bloque */
+}
+
+/* Animación de tecleo */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 20ch; }
+}
+
+/* Cursor parpadeante */
+@keyframes blink {
+    0%, 50%, 100% { border-color: transparent; }
+    25%, 75% { border-color: #F23B7D; }
+}
+
+

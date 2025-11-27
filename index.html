@@ -1,0 +1,165 @@
+<!-- Indica que el documento es HTML5 -->
+<!DOCTYPE html>
+<!-- Etiqueta raíz del documento, idioma español -->
+<html lang="es">
+<head>
+    <!-- Codificación de caracteres -->
+    <meta charset="UTF-8">
+    <!-- Responsive: adapta el diseño a móviles y pantallas pequeñas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título que aparece en la pestaña del navegador -->
+    <title>Verónica | Desarrolladora Web</title>
+    <!-- Bootstrap: framework CSS para diseño moderno y responsive -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Hoja de estilos personalizada -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación superior -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <!-- Logo del portfolio -->
+            <a class="navbar-brand" href="#">
+                <img src="assets/logoVFT.png" alt="Logo VFT" class="logo-img">
+            </a>
+            <!-- Botón para menú en móviles -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Menú de navegación -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <!-- Enlaces a las secciones principales -->
+                    <li class ="nav-item"><a class="nav-link" href="#about">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobremi">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Sección de presentación personal -->
+    <header class="text-center py-5" id="about">
+        <!-- Imagen principal personalizada -->
+    <div class="avatar-container mb-3">
+       <img src="assets/principal.png" alt="Avatar" class="avatar-front rounded-circle principal-img">
+       <img src="assets/fotoReal.jpg" alt="Foto Real" class="avatar-back rounded-circle principal-img">
+    </div>
+
+        <!-- Título principal con mi nombre -->
+        <h1 class="mb-2">¡Hola! Soy Verónica</h1>
+        <!-- Breve descripción sobre mi -->
+        <p class="lead">¡Bienvenido/a a mi espacio digital! </p>
+           <p> Desarrolladora Web, comprometida con aprender, mejorar y aportar valor a cada línea de código.</p>
+    </header>
+    <!-- Sección Sobre mí -->
+    <section class="container py-5" id="sobremi">
+        <h2 class="mb-4 text-center">Sobre mí</h2>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-4 text-center mb-3 mb-md-0">
+                <!-- Imagen decorativa para la sección Sobre mí -->
+                <img src="assets/sobre-mi.png" alt="Imagen sobre mí" class="sobremi-img">
+            </div>
+            <div class="col-md-8">
+                <p> Soy Desarrolladora Web, con formación en Desarrollo de Aplicaciones Web y experiencia en proyectos que combinan frontend y backend. Me interesa especialmente crear aplicaciones interactivas que aporten valor real a las personas.</p>
+                <p> Me gustaría seguir creciendo profesionalmente en el ámbito del desarrollo web o QA, aprender cada día y participar en equipos donde pueda aportar, crecer y construir soluciones de calidad.</p>
+                <p> Soy una persona responsable, curiosa y con muchas ganas de mejorar. Disfruto colaborando y compartiendo ideas, tanto a nivel técnico como humano.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de Formación y experiencia -->
+    <section class="container py-5" id="formacion">
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+                <div class="card shadow-sm border-0 formacion-card">
+                    <div class="card-body">
+                        <h2 class="mb-4 text-center formacion-title">Formación y experiencia</h2>
+                        <ul class="list-unstyled">
+                            <li class="mb-4">
+                                <h5 class="formacion-subtitle">Grado Superior en Desarrollo de Aplicaciones Web (DAW)</h5>
+                                <p class="mb-1">C.D.P. Instituto de Fomento Ocupacional — 2023 · 2025</p>
+                                <p class="mb-1">Durante estos dos años he aprendido a dar vida a aplicaciones web completas, desde la lógica del backend hasta la experiencia del usuario en el frontend.
+                                                Ha sido un camino de descubrimiento, muchas líneas de código y aún más ganas de seguir aprendiendo.</p>
+                            </li>
+                            <li class="mb-4">
+                                <h5 class="formacion-subtitle">Desarrolladora Fullstack (Prácticas)</h5>
+                                <p class="mb-1">Soltel Group, Sevilla — Marzo · Junio 2025 </p>
+                                <p>Formé parte del equipo de desarrollo de ELEX, una aplicación de gestión jurídica homologada por LexNET Andalucía.
+                                   Participé en la creación y prueba de nuevas funcionalidades, resolución de incidencias y mejora continua del proyecto.
+                                   Más allá del código, aprendí la importancia del trabajo en equipo, las buenas prácticas y la comunicación entre desarrolladores.</p>
+                                <ul>
+                                    <li>Implementación y prueba de funcionalidades usando Angular, TypeScript y Spring Boot.</li>
+                                    <li>Desarrollo de servicios REST y lógica de negocio con Java.</li>
+                                    <li>Trabajo con bases de datos MySQL y Oracle, empleando DBeaver como herramienta de consulta.</li>
+                                    <li>Control de versiones mediante Git utilizando el cliente Fork.</li>
+                                    <li>Participación en tareas reales del equipo de desarrollo, siguiendo buenas prácticas y resolviendo incidencias.</li>
+                                </ul>
+                            </li>
+
+                                <h5 class="formacion-subtitle"> ¿Quieres conocer mi trayectoria completa?</h5>
+                                <p>👉<a href="assets/Cv_Daw_VerónicaFlores.pdf" target="_blank" rel="noopener">Descarga mi CV aquí</a> </p>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de proyectos -->
+    <section class="container py-5" id="projects">
+        <!-- Título de la sección -->
+        <h2 class="mb-4 text-center">Mis Proyectos</h2>
+        <!-- Aquí se mostrarán las tarjetas de mis proyectos -->
+        <div class="row" id="project-list">
+            <!-- Aquí se mostrarán mis proyectos -->
+        </div>
+    </section>
+    <!-- Sección de contacto -->
+    <section class="bg-light py-5" id="contact">
+        <div class="container">
+            <!-- Título de la sección -->
+            <h2 class="mb-4 text-center">Contacto</h2>
+            <!-- Redes sociales en tarjeta visual -->
+            <div class="card mb-4 mx-auto social-card">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-3 social-title">Conecta conmigo</h5>
+                <a href="https://www.linkedin.com/in/veronicaflorestorralva/" target="_blank" rel="noopener" class="mx-2 social-link" title="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#0C1E35" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.337-.026-3.063-1.868-3.063-1.868 0-2.156 1.459-2.156 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.838-1.563 3.036 0 3.6 2.001 3.6 4.601v5.595z"/></svg>
+                </a>
+                <a href="https://github.com/VeronicaFT" target="_blank" rel="noopener" class="mx-2 social-link" title="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="#F23B7D" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.84 1.236 1.84 1.236 1.07 1.834 2.809 1.304 3.495.997.108-.775.418-1.305.762-1.605-2.665-.305-5.466-1.334-5.466-5.93 0-1.31.469-2.381 1.236-3.221-.124-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.873.119 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.803 5.624-5.475 5.921.43.371.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .322.218.694.825.576 4.765-1.585 8.199-6.082 8.199-11.385 0-6.627-5.373-12-12-12z"/></svg>
+                </a>
+              </div>
+            </div>
+            <!-- Texto formulario -->
+            <p class="text-center mb-4 contact-invite">O si lo prefieres, mándame un mensaje a mi correo:</p>
+            <form id="contactForm" action="https://formspree.io/f/xqadkzny" method="POST">
+                <div class="mb-3">
+                    <!-- Campo para el email -->
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="tu@email.com">
+                </div>
+                <div class="mb-3">
+                    <!-- Campo para el mensaje -->
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Escribe tu mensaje..."></textarea>
+                </div>
+                <!-- Botón para enviar el formulario -->
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            
+            <!-- Mensaje de confirmación -->
+            <div id="formSuccess" class="alert alert-success mt-3 text-center" style="display:none;">
+                ¡Gracias por tu mensaje! Te responderé lo antes posible.
+            </form>
+        </div>
+        
+    </section>
+    <!-- Pie de página -->
+    <footer class="text-center py-4 custom-footer">
+        &copy; 2025 Verónica's portfolio 💻
+    </footer>
+    <!-- Scripts de Bootstrap y JS personalizado -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
